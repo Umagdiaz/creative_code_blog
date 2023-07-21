@@ -3,22 +3,61 @@
     margin: 0;
     padding: 0;
   }
-  
-  img {
-    max-width: 100%;
-  }
-  
+
   html {
+    font-size: 62.5%;
     min-height: 100%;
   }
-  
-  body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
+
+  :root {
+    --font_headings-family: 'IBM Plex Mono', monospace;
+    --font_headings-size: 3.6rem; 
+    --font_p-family: 'Roboto', sans-serif;
+    --font_p-size: 1.8rem;
   }
 
 .header {
     display: flex;
+    flex-direction: column;
 } 
+
+.header__l {
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.header__r {
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font_headings-size);
+  font-family: var(--font_headings-family);
+  border-bottom: 2px solid black; 
+}
+
+.header__r-sub {
+  font-family: var(--font_p-family);
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+background-color: rgb(240, 235, 240);
+font-family: var(--font_p-family);
+font-size: var(--font_p-size);
+padding: 1.8em 3.6rem;
+}
+
+.content__text {
+  margin: 1.8em;
+}
 
