@@ -11,7 +11,7 @@
 
   :root {
     --font_headings-family: 'IBM Plex Mono', monospace;
-    --font_headings-size: 3.6rem; 
+    --font_headings-size: 2.4rem; 
     --font_p-family: 'Roboto', sans-serif;
     --font_p-size: 1.8rem;
   }
@@ -28,6 +28,7 @@
   justify-content: center;
   overflow: hidden;
   object-fit: cover;
+  border-bottom: 2px solid black;
 }
 
 .header__r {
@@ -58,6 +59,6 @@ padding: 1.8em 3.6rem;
 }
 
 .content__text {
-  margin: 1.8em;
+  padding-bottom: 1.8em;
 }
 
