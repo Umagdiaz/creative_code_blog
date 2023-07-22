@@ -4,8 +4,10 @@ let speedSlider;
  function setup() {
   const sketchContainer = document.getElementById('processing_stars');
   const containerHeight = sketchContainer.clientHeight;
+  const containerWidth = sketchContainer.clientWidth;
 
-  const canvas = createCanvas(windowWidth, containerHeight);
+
+  const canvas = createCanvas(containerWidth, containerHeight);
   canvas.parent('processing_stars')
  
   speedSlider = createSlider(0, 20, 0, 0.1);
