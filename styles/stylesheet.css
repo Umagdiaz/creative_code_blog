@@ -159,12 +159,17 @@ padding: 0;
   padding: 1rem 0rem 1rem 1rem;
 }
 
-a {
+.a__buttom {
+  color:#000;
+  text-decoration: none;
+}
+
+.a__footer {
   text-decoration: underline;
-  color:white
+  color: white;
 }
 
 a:hover {
   font-style: italic;
-  font-size: 1.8rem;
+  font-weight: bold;
 }

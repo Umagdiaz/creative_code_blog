@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --font_principal-family: 'IBM Plex Mono', monospace;
+    --font_principal-size: 3rem; 
+    --font_p-family: 'Roboto', sans-serif;
+    --font_p-size: 1.8rem;
+    --font_quotes-family: 'Lumanosimo', cursive;
+    --font_quotes-size: 2rem;
+    --cols_3:  minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) ;
+    font-size: 62.5%;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: var(--cols_3);
+    grid-template-rows: 1fr 1fr 1fr auto;
+    color: #333333;
+    background-color: rgb(250, 245, 240);
+    min-height: 100vh;
+    width: 100%;
+  }
+  
