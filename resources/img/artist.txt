@@ -1,0 +1,43 @@
+Paul Ferragut
+France
+A new media artist and creative technologist exploring digital art through interactive installations.
+
+My area of research is creative coding, physical interaction, the humanization of technology, and 
+collaborations with other artistic disciplines.
+
+bruno Imbrizi
+Brazil
+working with creative coding for over a decade, creating websites, online experiences, 
+design systems and installations for some well known brands like Dell, Adidas and Universal Music.
+
+Some of my projects were made with C++ (OpenFrameworks) or Python (TouchDesigner), but my focus has been on 
+web technologies using JavaScript and WebGL.
+
+Julien Gachadoat
+France
+
+Has been exploring generative drawing for many years, creating unique art with algorithms. 
+He works with the emergence of abstract form, combining monochrome, geometric shapes, playing with 
+repetition and using random operations to generate an element of surprise.
+He has been exhibiting his work in Bordeaux (Galerie Métavilla) in Paris (Galerie Binôme), 
+in Bayonne (DIDAM, Contemporary Art Space), in Berlin and in Venezia (Biennale).
+
+Manfred Mohr
+Germany
+
+Mohr started his career as an action painter and jazz musician. He began using a computer in 1969 because of a growing interest in creating algorithmic art. 
+
+His early computer works are algorithmic and based on his former drawings with a strong attitude on rhythm and repetition. 
+In 1990 he was awarded the Prix Ars Electronica (Golden Nica) at Ars Electronica festival in Linz, Austria. 
+He maintained an art studio in Paris from 1963 to 1983. Mohr attended Kunst + Werkschule in Pforzheim and École des Beaux-Arts in Paris.
+
+Auro Lecci
+Italy
+Auro Lecci began his computer graphic works at the data center of the University of Pisa (Italy) and later continued at the 
+Department of Art of the University of Massachusettes, Amherst, MA (USA).
+
+Edward Zajec
+Italy
+Edward Zajec had started working with computers in 1968 while teaching Fine art at Carleton College in Northfield, Minnesota. His use of computers has focussed on eliciting patterns based on redundancy and repeatition. He has been 
+engaged in computer graphics, experimental animation and internet projects in the recent past.
+

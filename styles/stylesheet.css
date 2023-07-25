@@ -159,6 +159,11 @@ padding: 0;
   padding: 1rem 0rem 1rem 1rem;
 }
 
+.footer__contact-a {
+  color:white
+}
+
+
 .a__buttom {
   color:#000;
   text-decoration: none;
