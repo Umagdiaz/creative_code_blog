@@ -8,9 +8,10 @@
     --font_principal-family: 'IBM Plex Mono', monospace;
     --font_principal-size: 3rem; 
     --font_p-family: 'Roboto', sans-serif;
-    --font_p-size: 1.8rem;
+    --font_p-size: 2rem;
+    --line-height-p: 3rem;
     --font_quotes-family: 'Lumanosimo', cursive;
-    --font_quotes-size: 2rem;
+    --font_quotes-size: 2.4rem;
     --cols: 1rem 5px minmax(0, 1fr) 5px 1rem;
     font-size: 62.5%;
   }
@@ -66,6 +67,7 @@ font-family: var(--font_p-family);
 font-size: var(--font_p-size);
 margin: 0;
 padding: 0;
+line-height: var(--line-height-p);
 }
 
 .content > p:first-child {
@@ -113,7 +115,7 @@ padding: 0;
 
 .button__creatives {
   font-family: var(--font_principal-family);
-  font-size: 16px;
+  font-size: 2rem;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
@@ -128,6 +130,7 @@ padding: 0;
   text-align: center;
   grid-column: 3 / -3;
   margin-bottom: 2rem;
+  padding: 4px 0 4px 0; 
 }
 
 .button__creatives:active {
@@ -147,6 +150,7 @@ padding: 0;
   grid-column: 1 / -1;
   align-items:self-start;
   text-decoration: none;
+  padding-top: 6%;
 }
 
 .footer__description-li {
@@ -163,10 +167,9 @@ padding: 0;
   color:white
 }
 
-
 .a__buttom {
   color:#000;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 .a__footer {

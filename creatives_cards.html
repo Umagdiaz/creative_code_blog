@@ -7,29 +7,41 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
-        <p>BACK</p>
+    <div class="navbar" id="navabar_top">
+        <a class="a__buttom" href="index.html">BACK</a>
     </div>
-    <div class="container__cads">
-        <div ></div>
-        <div class="card card__creative-1"></div>
-        <div class="card card__creative-2"></div>
-        <div class="card card__creative-3"></div>
-        <div class="card card__creative-4"></div>
-        <div class="card card__creative-5"></div>
-        <div class="card card__creative-6"></div>
-        <div class="card card__creative-7"></div>
-        <div class="card card__creative-8"></div>
-        <div class="card card__creative-9"></div> 
+    <div class="container__cards">
+
+        <div class="cards card__creative-1">
+            <div class="card__creative-head">
+                <h3 class="name__card">Name</h3>
+                <p class="country__card">Country</p>
+            </div>
+            <div class="card__creative-body">
+                <div class="card__creative-bio">
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iste nihil, quasi ipsum eius quidem error similique modi adipisci repellat ex voluptate praesentium? Magni odit exercitationem molestiae alias officiis velit.
+                    </p>
+                </div> 
+                <div class="card__creative-img">
+                    <img class="card__img-flip" src="/resources/img/Auro_lecci.jpg" alt="">
+                </div>
+            </div>
+            <div class="card__icon-flip">
+                <img src="/resources/icons/arrow_flip_m.png" alt="Icon Clicable" class="clickable-icon" >
+            </div>       
+        </div>  
+
     </div>
+
     <div class="footer">
         <ul class="footer__description-ul">
-            <li class="footer__description-li"><a class="a__footer" href="#header_top">Back to top</a></li>
-            <li class="footer__description-li"><a class="a__footer" href="https://github.com/Umagdiaz">Profile</aa__buttom></li>
+            <li class="footer__description-li"><a class="a__footer" href="#navabar_top">Back to top</a></li>
+            <li class="footer__description-li"><a class="a__footer" href="https://github.com/Umagdiaz">Profile</a></li>
             <li class="footer__description-li">2023</li>
         </ul> 
         <p class="footer__contact"><a class="footer__contact-a" href="https://www.instagram.com/umagranadodiaz/">@umagranadodiaz</a></p>
     </div>
 </body>
-<script src="scipts/scipts.js"></script> 
+<script src="scipts/creative_cards-flip.js"></script> 
 </html>
