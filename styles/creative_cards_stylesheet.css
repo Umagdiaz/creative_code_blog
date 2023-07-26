@@ -46,7 +46,7 @@
    display: flex;
    flex-direction: column;
    flex: 1;
-   perspective: 600px;
+   perspective: 3500px;
    
   }
 
@@ -56,9 +56,6 @@
     margin: 2rem 4rem 2rem 4rem; 
     box-shadow: 12px 11px 9px 2px rgba(156,156,156,1);
     cursor: pointer;
-    transition: 1s;
-    transform-style: preserve-3d; 
-  
   }
 
   .card__creative-head {
@@ -86,6 +83,7 @@
     flex-direction: column;
     flex-grow: 1;
     transform-style: preserve-3d; 
+    transition: 1s;
   }
 
   .card__creative-bio {
@@ -94,7 +92,6 @@
     font-size: var(--font_p-size);
     font-family: var(--font_p-family);
     backface-visibility: hidden;
-   
   }
 
   .card__creative-img {
@@ -114,8 +111,9 @@
   }
 
 
-  .card_flip {
-    transform: rotateY(180deg)
+  .card_flip > .card__creative-body {
+    transform: rotateY(180deg);
+    transition: 1s;
   }
 
   .card__icon-flip {
