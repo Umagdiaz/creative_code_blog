@@ -75,7 +75,6 @@ line-height: var(--line-height-p);
   margin-top: 2rem;
 }
 
-
 .content__text  {
   padding-bottom: 1.8em;
   grid-column: 3 / -3  ;

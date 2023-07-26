@@ -1,0 +1,46 @@
+@media (min-width: 1204px){
+    :root {
+        --font_p-size: 2.8rem;
+        --line-height-p: 3.4rem;
+        --font_quotes-size: 3.4rem;
+        font-size: 62.5%;
+      }
+
+      .a__buttom {
+        display: flex;
+        color:white;
+        text-decoration: none;
+        align-content:  center;
+        justify-content: center;
+        padding: 2% 0 2% 0;
+      }
+
+      .name__card {
+        font-size: 4rem;
+        font-family: var(--font_principal-family);
+      }
+
+      .container__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px; 
+      }
+
+      .container__cards{
+        margin: 10rem 3rem 25rem 3rem;
+      }
+
+      .cards {
+        margin: 1rem 1.5rem 3rem 1.5rem; 
+        box-shadow: 12px 11px 9px 2px rgba(156,156,156,1);
+      }
+
+
+      .footer {
+        font-size: 2.4rem;
+        padding-top: 6%;
+        padding-bottom: 3%;
+      }
+
+     
+}
