@@ -47,6 +47,7 @@
   width: 100%;
   height: 50%;
 }
+
 .header__main-title {
   font-size: var(--font_principal-size);
   font-family: var(--font_principal-family);
