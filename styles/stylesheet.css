@@ -8,7 +8,7 @@
     --font_principal-family: 'IBM Plex Mono', monospace;
     --font_principal-size: 3rem; 
     --font_p-family: 'Roboto', sans-serif;
-    --font_p-size: 2rem;
+    --font_p-size: 1.6rem;
     --line-height-p: 3rem;
     --font_quotes-family: 'Lumanosimo', cursive;
     --font_quotes-size: 2.4rem;
@@ -133,7 +133,7 @@ line-height: var(--line-height-p);
 }
 
   input[type=range] {
-    height: 40px;
+    height: 20px;
     background-color: rgb(240, 240, 240);
     -webkit-appearance: none;
     margin: 10px 0;

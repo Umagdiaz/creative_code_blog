@@ -1,9 +1,9 @@
 @media (min-width: 768px) {
     :root {
         --font_principal-family: 'IBM Plex Mono', monospace;
-        --font_principal-size: 6rem; 
+        --font_principal-size: 4rem; 
         --font_p-family: 'Roboto', sans-serif;
-        --font_p-size: 2.8rem;
+        --font_p-size: 1.8rem;
         --line-height-p: 3.4rem;
         --font_quotes-family: 'Lumanosimo', cursive;
         --font_quotes-size: 3.4rem;
@@ -16,13 +16,31 @@
         font-size: var(--font_p-size);
       }
 
+      .content__text-quotes {
+       grid-column: 2 / -2;
+      }
+
+      .header__img {
+        overflow:hidden;
+        object-fit:cover;
+        object-position:center; 
+      }
+
+      .content__img1 {
+        height: 45vh;
+      }
+
+      #processing_stars {
+        height: 45vh;
+      }
+
       .button__creatives {
         font-size: var(--font_p-size);
       }
 
       .footer {
-        font-size: 2.4rem;
-        padding-top: 6%;
+        font-size: 1.6rem;
+        padding-top: 4%;
         padding-bottom: 3%;
       }
 }

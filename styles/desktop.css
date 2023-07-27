@@ -1,6 +1,15 @@
 @media (min-width: 1024px) {
     :root {
-        --cols: 10rem 6rem minmax(0, 1fr) 6rem 10rem;
+      --font_principal-family: 'IBM Plex Mono', monospace;
+      --font_principal-size: 3rem; 
+      --font_p-family: 'Roboto', sans-serif;
+      --font_p-size: 1.8rem;
+      --line-height-p: 3rem;
+      --font_quotes-family: 'Lumanosimo', cursive;
+      --font_quotes-size: 2.4rem;
+      --cols: 10rem 6rem minmax(0, 1fr) 6rem 10rem;
+      font-size: 62.5%;
+        
       }
 
       .header__title-sub {
@@ -25,8 +34,8 @@
       .content__text-quotes {
         color:dimgray;
         grid-column: 2 / -2;
-        font-size: 3.8rem;
-        line-height: 5.2rem;
+        font-size: 3.2rem;
+        line-height: 4.6rem;
       }
 
       .header {
@@ -57,7 +66,16 @@
       
       .header__title-sub {
         padding-top: 1rem;
-        font-family: var(--font_principal-family);
-        
+        font-family: var(--font_principal-family);  
+      }
+
+      .button__creatives {
+        margin-bottom: 20%;
+      }
+
+      .footer {
+        justify-content:space-around; 
+        font-size: 1.4rem;
+        padding-top: 2%;
       }
 }
